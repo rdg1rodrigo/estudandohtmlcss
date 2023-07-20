@@ -170,9 +170,9 @@ tfoot td, table th{
 .intro-content{
   max-width: 65rem;
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
   text-align: center;
 }
 .top3-content{
